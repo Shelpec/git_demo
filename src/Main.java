@@ -162,6 +162,7 @@ class Tovar {
 
 public class Main {
     public static void main(String[] args) {
+        HelloWorld title = new HelloWorld();
         // Создаем 200 случайных товаров
         Tovar[] tovars = new Tovar[200];
         for (int i = 0; i < 200; i++)
