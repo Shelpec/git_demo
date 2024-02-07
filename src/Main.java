@@ -1,6 +1,7 @@
 import java.util.Random;
 import java.util.Arrays; // Добавлен импорт
 
+//aaaaaaaaaaaaaaaaaaaaaaaaaa
 class Tovar {
     private int id;
     private String name;
@@ -73,13 +74,13 @@ class Tovar {
     }
 
     public static int max(int[] numbers) {
-        int max = numbers[0];
+        int max_ = numbers[0];
         for (int num : numbers) {
-            if (num > max) {
-                max = num;
+            if (num > max_) {
+                max_ = num;
             }
         }
-        return max;
+        return max_;
     }
 
     public static double average(int[] numbers) {
