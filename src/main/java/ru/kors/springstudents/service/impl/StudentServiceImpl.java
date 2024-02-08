@@ -14,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @Primary
 public class StudentServiceImpl implements StudentService {
+
     private final StudentRepository repository;
     @Override
     public List<Student> findAllStudent() {
